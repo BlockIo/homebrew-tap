@@ -1,25 +1,25 @@
 class Dogechain < Formula
   desc "Command-line interface for Dogechain.com"
   homepage "https://dogechain.com"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/BlockIo/dogechain-cli/releases/download/v0.1.1/dogechain-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "bd5c45689eae427c4ff8ac53b5be3e52cb7af4ac07b96a4ba490a8340557b730"
+      url "https://github.com/BlockIo/dogechain-cli/releases/download/v0.1.2/dogechain-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "a545809d34a6544939af3a18d10d9d27e7772fd5688185deebc3a224d5e6fd2f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BlockIo/dogechain-cli/releases/download/v0.1.1/dogechain-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "3654f8ce8f3656ae88c30d05e19c60ac080757c3ce10ac173a34cfbbb2fa8f50"
+      url "https://github.com/BlockIo/dogechain-cli/releases/download/v0.1.2/dogechain-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "82e15c5caa9d7a1941a9ef1ffb0c170c6b05cf01206496f52f76a5575a87297a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/BlockIo/dogechain-cli/releases/download/v0.1.1/dogechain-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "2dfa0802af160b8b5bee5394acdde092985b979910c2e14b8b0daea7203a4003"
+      url "https://github.com/BlockIo/dogechain-cli/releases/download/v0.1.2/dogechain-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b540f659869a20dc2cd0b0be22d771f6048e974d22e0f5238419f22413b7e628"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BlockIo/dogechain-cli/releases/download/v0.1.1/dogechain-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8da92ea0c20820b6258fe30cd9477ccf419a2f5d8d60355e167e80058359f093"
+      url "https://github.com/BlockIo/dogechain-cli/releases/download/v0.1.2/dogechain-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3a254a76756bcb31ea610980d514ec4b83f743a43f656e1075b25ec6e4b39e74"
     end
   end
   license "MIT"
