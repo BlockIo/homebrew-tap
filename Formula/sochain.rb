@@ -1,25 +1,25 @@
 class Sochain < Formula
   desc "Command-line interface for SoChain: Bitcoin, Litecoin, Dogecoin and Zcash blockchain data"
   homepage "https://sochain.com"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/BlockIo/sochain-cli/releases/download/v0.1.1/sochain-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "4cb5934a7f17c266373004f1f8be98e3d95e2197a68083f3b25c024d42ddbadd"
+      url "https://github.com/BlockIo/sochain-cli/releases/download/v0.1.2/sochain-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "a0c485ec9bff376bffd10f7b34b6f7f2853ba1040be1cbbc598cc45a503bcb4c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BlockIo/sochain-cli/releases/download/v0.1.1/sochain-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "d4e144284a33f8f25ba60e2f87907a6b463de304e0596084e321fbd2ceb1e22d"
+      url "https://github.com/BlockIo/sochain-cli/releases/download/v0.1.2/sochain-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "f9d989e2bbeeaa8a9a7d21a8f5fb013fb9673956ee164e8282aea9cc5922e5f9"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/BlockIo/sochain-cli/releases/download/v0.1.1/sochain-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "495220d881b2d94450b1ad199414687eba7304611d0a82c0f8c0c28fa4e934fa"
+      url "https://github.com/BlockIo/sochain-cli/releases/download/v0.1.2/sochain-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "31173ecdcff978c90b4ea982cdaa2e90f27354b5128acec88d10edd84b582246"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BlockIo/sochain-cli/releases/download/v0.1.1/sochain-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ee9872f12ce2d458e2ca8799ca938fd9edce7691aeca67bd387d5444cbe98785"
+      url "https://github.com/BlockIo/sochain-cli/releases/download/v0.1.2/sochain-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b85a4f7e16b3a540c090222badbe2dbc80138fa9c8311c4fda1a4354e5bceb7a"
     end
   end
   license "MIT"
